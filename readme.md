@@ -12,3 +12,10 @@
 
 ### Themify icons
 - Themify Icons is a complete set of icons for use in web design and apps, consisting of 320+ pixel-perfect, hand-crafted icons that draw inspiration from Apple iOS 7 - available to the public, 100% FREE [Themify Icons](https://themify.me/themify-icons)
+
+
+### build
+npm install -g node-sass
+```
+node-sass -w src/scss/style.scss -o docs/assets/css
+```
